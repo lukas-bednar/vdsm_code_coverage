@@ -1,0 +1,4 @@
+#!/bin/sh
+/sbin/chkconfig --add vdsmcodecoveraged
+mkdir -p /var/lib/vdsmcodecoverage
+chmod uog+rwx /var/lib/vdsmcodecoverage

@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ $1 -eq 0 ] ; then
+    /sbin/service vdsmcodecoveraged stop >/dev/null 2>&1
+    /sbin/chkconfig --del vdsmcodecoveraged >/dev/null 2>&1
+fi
