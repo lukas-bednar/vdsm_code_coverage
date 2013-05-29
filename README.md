@@ -24,5 +24,6 @@ do what ever you want to do ... restart vdsm, reboot host, remove vdsm and
 then install vdsm back.
 
 To disable
+
      chkconfig vdsmcodecoveraged off
      service vdsmcodecoveraged stop
